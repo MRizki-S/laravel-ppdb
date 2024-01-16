@@ -49,7 +49,7 @@
                     <a href="/registration-siswa" class="btn-daftar btn btn-outline-primary rounded   shadow">Daftar Sekarang</a>
                 </div>
                 <div class="col-lg-6 col-md-8  img-content">
-                    <img src="{{asset('images/home-img-ppdb.png')}}" class="img-fluid" width="450px" alt="image" draggable="false">
+                    <img src="{{asset()}}" class="img-fluid" width="450px" alt="image" draggable="false">
                 </div>
             </div>
         </div>
