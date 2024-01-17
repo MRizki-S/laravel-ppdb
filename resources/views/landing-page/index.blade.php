@@ -31,7 +31,7 @@
               <a class="nav-link text-light" href="#jurusan">Jurusan</a>
               <a class="nav-link text-light" href="#alur-pendaftaran">Alur Pendaftaran</a>
             </div>
-            <a class="btn btn-outline-light fs-6" href="/registration-siswa">Daftar PPDB</a>
+            <a class="btn btn-outline-light fs-6" href="/registration-ppdb">Daftar PPDB</a>
           </div>
         </div>
     </nav>
@@ -46,10 +46,10 @@
                         Untuk calon pendaftar tahun ajaran 2024/2025 bisa
                         mendaftar melalui website ini atau langsung datang
                         ke tempat pendaftaran</p>
-                    <a href="/registration-siswa" class="btn-daftar btn btn-outline-primary rounded   shadow">Daftar Sekarang</a>
+                    <a href="/registration-ppdb" class="btn-daftar btn btn-outline-primary rounded   shadow">Daftar Sekarang</a>
                 </div>
                 <div class="col-lg-6 col-md-8  img-content">
-                    <img src="{{asset()}}" class="img-fluid" width="450px" alt="image" draggable="false">
+                    <img src="{{asset('images/home-img-ppdb.png')}}" class="img-fluid" width="450px" alt="image" draggable="false">
                 </div>
             </div>
         </div>

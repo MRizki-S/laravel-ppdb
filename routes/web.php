@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('landing-page.index');
 });
+
+Route::get('/registration-ppdb', function () {
+    return view('landing-page.from-pendaftaran');
+});
