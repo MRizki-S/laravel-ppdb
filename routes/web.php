@@ -20,6 +20,10 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('landing-page.index');
 });
+Route::get('/dashboard', function () {
+    // return view('admin.template.main_layout');
+    return view('admin.main_dashboard');
+});
 
 Route::get('/registration-ppdb', function () {
     return view('landing-page.from-pendaftaran');
