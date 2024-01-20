@@ -31,9 +31,8 @@
     </div>
 
     <!-- Nav Item - Data ppdb -->
-    <li class="nav-item {{ Request::is('dashboard/siswa') ? 'active' : '' }}">
-        <a class="nav-link" href="
-        {{ url('dashboard/siswa') }}">
+    <li class="nav-item {{ Request::is('/data-ppdb') ? 'active' : '' }}">
+        <a class="nav-link" href="{{ url('/data-ppdb') }}">
             <i class="fas fa-fw fa-table"></i>
             <span>Data PPDB</span></a>
     </li>
