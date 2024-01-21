@@ -39,8 +39,8 @@
     </li>
 
     <!-- Nav Item - add data ppdb -->
-    <li class="nav-item {{ Request::is('dashboard/guru') ? 'active' : '' }}">
-        <a class="nav-link" href="/dashboard/guru">
+    <li class="nav-item {{ Request::is('add-data-ppdb') ? 'active' : '' }}">
+        <a class="nav-link" href="/add-data-ppdb">
             {{-- <i class="fas fa-fw fa-chart-area"></i> --}}
             <i class="fas fa-solid fa-file-circle-plus"></i>
             <span>Add Data PPDB</span></a>

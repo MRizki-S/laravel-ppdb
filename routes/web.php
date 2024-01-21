@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AddDataPpdbController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,5 @@ Route::get('/dashboard', function () {
 Route::get('/registration-ppdb', function () {
     return view('landing-page.from-pendaftaran');
 });
+
+Route::get('/add-data-ppdb',[AddDataPpdbController::class,'store']);
