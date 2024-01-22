@@ -30,4 +30,5 @@ Route::get('/registration-ppdb', function () {
     return view('landing-page.from-pendaftaran');
 });
 
-Route::get('/add-data-ppdb',[AddDataPpdbController::class,'store']);
+Route::get('/add-data-ppdb',[AddDataPpdbController::class,'create']);
+Route::post('/store', [AddDataPpdbController::class, 'store']);
